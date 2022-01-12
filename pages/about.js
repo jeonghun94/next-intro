@@ -1,3 +1,10 @@
+import Seo from "../componets/Seo";
+
 export default function test() {
-  return <div>about</div>;
+  return (
+    <div>
+      <Seo title="about" />
+      <div>about</div>
+    </div>
+  );
 }
