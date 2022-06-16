@@ -1,10 +1,10 @@
-import NavBar from "../components/NavBar";
+import Seo from "../components/Seo";
 
-export default function test() {
+export default function About() {
   return (
-    <div>
+    <>
       <div>about</div>
-      <NavBar />
-    </div>
+      <Seo title="About | Movies" />
+    </>
   );
 }
