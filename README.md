@@ -25,3 +25,19 @@
 
 1. 앱이 실행되기전 불러올수 있는게 있음 Global 하게
 2. 공통 컴포넌트나, css, jsx등
+
+## public
+
+1. 이미지나 아이콘 등등은 위 폴더에 넣으면 그 뒤에 바로 /파일 이름.png 바로 사용 가능
+
+## Next config
+
+아래 항목은 next.confgi.js 참고
+
+1. redirect
+2. rewrite
+
+## GetServerSideProps
+
+위 함수를 사용하면 데이터를 받아 오기 전까진 아무것도 보이지가 않음
+함수명은 바꾸면 안되고, props를 리턴 해줘야함 완벽한 Server Side Rendering이라 보면 됨
